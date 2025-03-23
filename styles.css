@@ -1,0 +1,28 @@
+    * {
+        font-family: "Roboto";
+        box-sizing: border-box;
+        margin: 0px;
+      }
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 24px;
+}
+
+.links {
+    gap: 14px;
+    margin-left: auto;
+    font-size: 18px;
+    }
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
