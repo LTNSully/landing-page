@@ -8,7 +8,6 @@
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
     align-items: center;
     background-color: #1F2937;
     color: white;
@@ -24,5 +23,28 @@
 a{
     text-decoration: none;
     color: white;
-    
+    }
+
+
+.top-section{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 44px;
+}    
+
+.top-left{
+    font-size: 48px;
+    font-weight: 900;
+    color: white
+}
+
+.top-left p{
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+#topbutton{
+    background-color: #3882f6;
+    color: white;
 }
