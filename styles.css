@@ -112,3 +112,16 @@ a{
         width: 600px;
         align-self: flex-end;
     }
+
+
+    .bottom-section{
+        background-color: #3882f6;
+        color: white;
+        display: flex;
+        margin: auto;
+
+    }
+
+    .call{
+        margin: 0;
+    }
