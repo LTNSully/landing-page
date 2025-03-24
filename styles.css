@@ -1,4 +1,4 @@
-    body {
+body {
         font-family: "Roboto";
         box-sizing: border-box;
         margin: 0px;
@@ -44,9 +44,16 @@ a{
     color: antiquewhite;
 }
 
+.top-right{
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 #topbutton{
     background-color: #3882f6;
     color: white;
+    padding: 10px;
+    font-size: 16px;
 }
 
 .first-main{
@@ -124,4 +131,11 @@ a{
 
     .call{
         margin: 0;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        background-color: #1F2937;
+        color: white;
     }
