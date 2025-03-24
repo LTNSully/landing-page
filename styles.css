@@ -12,25 +12,28 @@ body {
     background-color: #1F2937;
     color: white;
     font-size: 24px;
+    padding: 0 72px;
 }
 
-.links {
-    gap: 14px;
-    margin-left: auto;
+.links-container {
+    padding-left: 22px;
+    /* margin-left: auto; */
     font-size: 18px;
+    display: flex;
+    gap: 26px;
     }
 
-a{
+
+.link a {
     text-decoration: none;
     color: white;
-    }
-
+}
 
 .top-section{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 44px;
+    padding: 72px;
 }    
 
 .top-left{
@@ -49,7 +52,7 @@ a{
     border-radius: 10px;
 }
 
-#topbutton{
+.buttonone{
     background-color: #3882f6;
     color: white;
     padding: 10px;
@@ -117,7 +120,10 @@ a{
         font-weight: bold;
         display: flex;
         width: 600px;
+        flex-direction: row-reverse;
         align-self: flex-end;
+        margin: auto;
+
     }
 
 
@@ -125,12 +131,26 @@ a{
         background-color: #3882f6;
         color: white;
         display: flex;
-        margin: auto;
-
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        width: 600px;
+        border-radius: 12px;
+        margin: 64px auto;        
     }
 
     .call{
-        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .buttontwo{
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 16px;
     }
 
     .footer{
@@ -138,4 +158,6 @@ a{
         justify-content: center;
         background-color: #1F2937;
         color: white;
+        font-size: 18px;
+        padding: 30px;
     }
